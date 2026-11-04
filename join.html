@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festival - Home</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: green"><b>L'OLIVE AU COEUR</b></h1>
+
+      <h1 style="color: red">
+        FES
+        <span style="color: black; font-size: 24px">TIVAL</span>
+      </h1>
+      <h2>
+        FES.DU <span style="color: green">12</span> AU
+        <span style="color: green">22</span> NOVEMBRE 2026
+      </h2>
+
+      <nav>
+        <a href="index.html">Home</a> | <a href="program.html">Program</a> |
+        <a href="join.html">Join Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Registration Form</h2>
+
+      <p>
+        We are happy to have you with us! Fill in the form below to participate.
+      </p>
+
+      <form>
+        <hr />
+        <h1>Personal Information</h1>
+        <br />
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+
+        <label for="phone">Phone Number:</label><br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+        />
+        <br /><br />
+        <hr />
+        <h1>Festival Day Selection</h1>
+        <label for="date">Choose Your Festival Day:</label><br />
+        <select id="date" name="date" required>
+          <option value="">Select a day</option>
+          <option value="day1">Jeudi 12 novembre</option>
+          <option value="day2">Vendredi 13 novembre</option>
+          <option value="day3">Samedi 14 novembre</option>
+          <option value="day3">Dimanche 15 novembre</option>
+          <option value="day3">Mardi 17 novembre</option>
+          <option value="day3">Vendredi 20 novembre</option>
+          <option value="day3">Samedi 21 novembre</option>
+          <option value="day3">Dimanche 22 novembre</option>
+        </select>
+        <br /><br />
+
+        <hr />
+        <h1>Activity Selection</h1>
+        <br />
+
+        <label for="activity">Choose Your Activity:</label><br />
+        <select id="activity" name="activity" required>
+          <option value="">Select an activity</option>
+          <option value="music">Music Concert</option>
+          <option value="painting">Painting Workshop</option>
+          <option value="dance">Traditional Dance</option>
+          <option value="sports">Sports Activities</option>
+          <option value="food">Food Festival</option>
+        </select>
+        <br /><br />
+
+        <label for="message">Additional Information:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="30"
+          placeholder="Write your message here..."
+        ></textarea>
+        <br /><br />
+
+        <input type="checkbox" id="agree" required />
+        <label for="agree">I agree to participate in the festival.</label>
+
+        <br /><br />
+
+        <input type="submit" value="Submit Registration" />
+
+        <input type="reset" value="Clear Form" />
+      </form>
+    </main>
+
+    <footer style="background-color: #04e804">
+      <p>© 2026 Our Festival. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
